@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="box" class="container flexItem">
+                <span class="title">FINNKINO</span><br><br><br><br><br>
+                <label id="labelTheatres" for="theatres">Theatres</label>
+                <select id="theatres"></select><br><br>
+                <label for="dateOfDisplay">Date</label>
+                <input type="date" id="dateOfDisplay" name="movieDate"><br><br>
+                <label id="searchLabel" for="searchTheatres" style="color: #1a1a1a">.</label>
+                <input type="text" id="searchTheatres" placeholder="type city / theatre name..">
+                <button id="searchButton">search</button>
+                <div id="tableContainer"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+

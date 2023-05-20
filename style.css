@@ -1,0 +1,45 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.container {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+label {
+    margin: 60%;
+}
+
+#tableContainer {
+    position: relative;
+    left: -11vw;
+}
+
+table {
+    margin-left: -150%;
+    width:500px;
+    border: white solid 1px;
+}
+
+td {
+    white-space:nowrap;
+    border: white solid 1px;
+    border-bottom: none;
+    border-left: none;
+    padding: 15px 15px;
+}
+
+a {
+    color: white;
+}
